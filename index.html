@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Counter-Craft brings Counter-Strike weapons to Minecraft."
+    />
+    <title>Counter-Craft</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assets/Images/Site/Logo.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/1565958858.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Counter-Craft home">
+          <img class="brand-logo" src="Assets/Images/Site/Logo.png" alt="" />
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="skins.html">Skins</a>
+          <a href="legal.html">Legal</a>
+          <a class="nav-download-link" href="downloads.html">Downloads</a>
+        </div>
+
+        <a class="button button-download" href="downloads.html">
+          <i class="fa-solid fa-download"></i>
+          Downloads
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <img
+          class="hero-backdrop"
+          src="Assets/Images/Site/Hero.png"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="hero-content">
+          <h1>Counter-Craft</h1>
+          <p class="hero-subtitle">Available now in Beta!</p>
+          <div class="hero-actions">
+            <a class="button button-download" href="downloads.html">
+              <i class="fa-solid fa-download"></i>
+              Downloads
+            </a>
+            <a class="button button-docs" href="skins.html">
+              <i class="fa-solid fa-book"></i>
+              Skins
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="content-panel">
+        <section class="intro" id="about">
+          <div class="intro-copy">
+            <h2>Welcome to Counter-Strike,<br />in Minecraft!</h2>
+            <p>Adding weapons, game mechanics, items from CS2</p>
+          </div>
+          <img
+            class="intro-image"
+            src="Assets/Images/Site/CC2.png"
+            alt="Counter-Craft characters inspired by Counter-Strike"
+          />
+        </section>
+
+        <section class="intro intro-killfeed">
+          <img
+            class="killfeed-image"
+            src="Assets/Images/Site/Killfeed.png"
+            alt="Counter-Craft kill feed with weapon and elimination icons"
+          />
+          <div class="intro-copy">
+            <h2>Don't forget the UI</h2>
+            <p>Including a fully-featured killfeed,<br> buy menu, and much more!</p>
+          </div>
+        </section>
+
+        <section class="intro intro-comparison">
+          <div class="intro-copy">
+            <h2>Put some personality into your arsenal.</h2>
+            <p>Over ~80 unique weapon finishes available!</p>
+            <a class="button button-docs" href="skins.html">
+              <i class="fa-solid fa-book"></i>
+              Skins
+            </a>
+          </div>
+          <div class="image-comparison">
+            <img
+              class="comparison-image"
+              src="Assets/Images/Site/SkinWeapon.png"
+              alt="Counter-Strike weapon skin shown in a realistic game scene"
+            />
+            <img
+              class="comparison-image comparison-image-overlay"
+              src="Assets/Images/Site/SkinWeapon2.png"
+              alt="The same weapon skin shown in Counter-Craft"
+            />
+            <div class="comparison-divider" aria-hidden="true"></div>
+            <input
+              class="comparison-slider"
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              aria-label="Compare Counter-Strike and Counter-Craft images"
+            />
+          </div>
+        </section>
+
+        <section class="intro intro-server-browser">
+          <img
+            class="intro-image"
+            src="Assets/Images/Site/ServerBrowser.png"
+            alt="Counter-Craft server browser showing available game servers"
+          />
+          <div class="intro-copy">
+            <h2>Join your friends easily!</h2>
+            <p>Works together with Essential and comes with a Source-inspired Server Browser.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer" id="journal">
+      <div class="footer-meta">
+        <a class="footer-brand" href="index.html#home" aria-label="Counter-Craft home">
+          <img class="brand-logo" src="Assets/Images/Site/Logo.png" alt="" />
+        </a>
+      </div>
+      <div class="footer-left">
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="skins.html">Skins</a>
+          <a href="legal.html">Legal</a>
+          <a href="downloads.html">Downloads</a>
+        </nav>
+        <span class="footer-disclaimer">Not affiliated with Valve Corporation or Counter-Strike.</span>
+      </div>
+    </footer>
+    <script src="comparison.js" defer></script>
+  </body>
+</html>
